@@ -111,6 +111,9 @@ app.post('/users/:name/delete', function(req, res) {
 
 
 
+
+
+
 app.use(express.static('./public'));
 
 app.listen(app.get('port'), function() {
